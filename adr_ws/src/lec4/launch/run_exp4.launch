@@ -1,0 +1,13 @@
+  <launch>
+    <arg name="waitTimeMilliseconds" default="30"/>
+
+    <!-- Launch Rviz -->
+    <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find lec4)/rviz/exp4.rviz" />
+
+    <node name="exp4_feature_detector" pkg="lec4" type="exp4_feature_detector" output="screen">
+      <rosparam file="$(find lec4)/params/exp4_params.yaml" />
+      <param name="waitTimeMilliseconds" value="$(arg waitTimeMilliseconds)"/>
+      <remap from="image_topic" to="/uav/camera/left/image_rect_color"/>
+      <remap from="odometry_topic" to="/uav/odometry"/>
+    </node>
+  </launch>

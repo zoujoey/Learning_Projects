@@ -1,0 +1,1 @@
+/home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec3/lib/pkgconfig/lec3.pc

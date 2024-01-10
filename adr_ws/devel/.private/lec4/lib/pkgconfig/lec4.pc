@@ -1,0 +1,8 @@
+prefix=/home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec4
+
+Name: lec4
+Description: Description of lec4
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

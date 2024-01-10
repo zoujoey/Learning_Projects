@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target exp4_feature_detector[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/exp4_feature_detector.dir/src/feature_detector.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec4/lib/lec4/exp4_feature_detector[0m
+[100%] Built target exp4_feature_detector

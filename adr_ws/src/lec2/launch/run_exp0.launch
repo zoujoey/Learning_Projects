@@ -1,0 +1,4 @@
+<launch>
+    <node name="exp0_node" pkg="lec2" type="exp0_basic_node" output="screen">
+    </node>
+  </launch>

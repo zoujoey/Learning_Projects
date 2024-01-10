@@ -1,0 +1,8 @@
+prefix=/home/zoujoey/ADR_stuff/adr_ws/install
+
+Name: lec3
+Description: Description of lec3
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

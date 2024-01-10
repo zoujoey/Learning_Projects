@@ -1,0 +1,7 @@
+[01m[K/home/zoujoey/ADR_stuff/adr_ws/src/lec4/src/feature_detector.cpp:[m[K In constructor ‘[01m[Klec4::FeatureDetector::FeatureDetector(const ros::NodeHandle&, const ros::NodeHandle&)[m[K’:
+[01m[K/home/zoujoey/ADR_stuff/adr_ws/src/lec4/src/feature_detector.cpp:11:3:[m[K [01;31m[Kerror: [m[K‘[01m[KodometrySub_[m[K’ was not declared in this scope
+   11 |   [01;31m[KodometrySub_[m[K =
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/exp4_feature_detector.dir/build.make:76: CMakeFiles/exp4_feature_detector.dir/src/feature_detector.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/exp4_feature_detector.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

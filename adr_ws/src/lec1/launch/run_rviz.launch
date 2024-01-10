@@ -1,0 +1,6 @@
+<launch>
+  
+    <!-- Launch Rviz-->
+    <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find lec1)/rviz/adr_rviz.rviz" />
+
+  </launch>

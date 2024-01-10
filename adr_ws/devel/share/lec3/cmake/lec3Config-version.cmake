@@ -1,0 +1,1 @@
+/home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec3/share/lec3/cmake/lec3Config-version.cmake

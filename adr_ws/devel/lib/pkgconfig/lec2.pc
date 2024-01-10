@@ -1,0 +1,1 @@
+/home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec2/lib/pkgconfig/lec2.pc

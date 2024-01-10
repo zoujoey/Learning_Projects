@@ -1,0 +1,1 @@
+/home/zoujoey/ADR_stuff/catkin_ws/devel/.private/catkin_tools_prebuild/local_setup.bash

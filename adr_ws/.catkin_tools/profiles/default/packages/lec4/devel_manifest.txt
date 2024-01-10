@@ -1,0 +1,6 @@
+lec4
+/home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec4/cmake.lock /home/zoujoey/ADR_stuff/adr_ws/devel/./cmake.lock
+/home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec4/lib/pkgconfig/lec4.pc /home/zoujoey/ADR_stuff/adr_ws/devel/lib/pkgconfig/lec4.pc
+/home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec4/lib/lec4/exp4_feature_detector /home/zoujoey/ADR_stuff/adr_ws/devel/lib/lec4/exp4_feature_detector
+/home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec4/share/lec4/cmake/lec4Config-version.cmake /home/zoujoey/ADR_stuff/adr_ws/devel/share/lec4/cmake/lec4Config-version.cmake
+/home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec4/share/lec4/cmake/lec4Config.cmake /home/zoujoey/ADR_stuff/adr_ws/devel/share/lec4/cmake/lec4Config.cmake

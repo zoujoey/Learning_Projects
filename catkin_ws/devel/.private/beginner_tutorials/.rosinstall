@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/zoujoey/ADR_stuff/catkin_ws/devel/.private/beginner_tutorials/setup.sh

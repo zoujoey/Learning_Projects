@@ -1,0 +1,30 @@
+[01m[K/home/zoujoey/ADR_stuff/adr_ws/src/lec4/src/feature_detector.cpp:[m[K In member function ‘[01m[Kvoid lec4::FeatureDetector::odomCallback(const Odometry&)[m[K’:
+[01m[K/home/zoujoey/ADR_stuff/adr_ws/src/lec4/src/feature_detector.cpp:47:13:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K.[m[K’ token
+   47 |     double q[01;31m[K.[m[Kx = msg.pose.pose.orientation.x;
+      |             [01;31m[K^[m[K
+[01m[K/home/zoujoey/ADR_stuff/adr_ws/src/lec4/src/feature_detector.cpp:48:13:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K.[m[K’ token
+   48 |     double q[01;31m[K.[m[Ky = msg.pose.pose.orientation.y;
+      |             [01;31m[K^[m[K
+[01m[K/home/zoujoey/ADR_stuff/adr_ws/src/lec4/src/feature_detector.cpp:49:13:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K.[m[K’ token
+   49 |     double q[01;31m[K.[m[Kz = msg.pose.pose.orientation.z;
+      |             [01;31m[K^[m[K
+[01m[K/home/zoujoey/ADR_stuff/adr_ws/src/lec4/src/feature_detector.cpp:50:13:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K.[m[K’ token
+   50 |     double q[01;31m[K.[m[Kw = msg.pose.pose.orientation.w;
+      |             [01;31m[K^[m[K
+[01m[K/home/zoujoey/ADR_stuff/adr_ws/src/lec4/src/feature_detector.cpp:52:22:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Klec4::FeatureDetector::EulerAngles[m[K’ and ‘[01m[Kvoid[m[K’)
+   52 |     e = quatToEuler(q[01;31m[K)[m[K;
+      |                      [01;31m[K^[m[K
+In file included from [01m[K/home/zoujoey/ADR_stuff/adr_ws/src/lec4/src/feature_detector.cpp:1[m[K:
+[01m[K/home/zoujoey/ADR_stuff/adr_ws/src/lec4/src/feature_detector.h:30:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr lec4::FeatureDetector::EulerAngles& lec4::FeatureDetector::EulerAngles::operator=(const lec4::FeatureDetector::EulerAngles&)[m[K’
+   30 |   struct [01;36m[KEulerAngles[m[K {
+      |          [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/zoujoey/ADR_stuff/adr_ws/src/lec4/src/feature_detector.h:30:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Kconst lec4::FeatureDetector::EulerAngles&[m[K’
+[01m[K/home/zoujoey/ADR_stuff/adr_ws/src/lec4/src/feature_detector.h:30:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr lec4::FeatureDetector::EulerAngles& lec4::FeatureDetector::EulerAngles::operator=(lec4::FeatureDetector::EulerAngles&&)[m[K’
+[01m[K/home/zoujoey/ADR_stuff/adr_ws/src/lec4/src/feature_detector.h:30:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kvoid[m[K’ to ‘[01m[Klec4::FeatureDetector::EulerAngles&&[m[K’
+[01m[K/home/zoujoey/ADR_stuff/adr_ws/src/lec4/src/feature_detector.cpp:[m[K In member function ‘[01m[Kvoid lec4::FeatureDetector::quatToEuler(lec4::FeatureDetector::Quaternion)[m[K’:
+[01m[K/home/zoujoey/ADR_stuff/adr_ws/src/lec4/src/feature_detector.cpp:74:12:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K-fpermissive[m[K]
+   74 |     return [01;31m[Kangles[m[K;
+      |            [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/exp4_feature_detector.dir/build.make:76: CMakeFiles/exp4_feature_detector.dir/src/feature_detector.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/exp4_feature_detector.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

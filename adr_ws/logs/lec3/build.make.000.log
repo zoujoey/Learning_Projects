@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target exp3_image_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/exp3_image_subscriber.dir/src/exp3_image_subscriber.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec3/lib/lec3/exp3_image_subscriber[0m
+[100%] Built target exp3_image_subscriber

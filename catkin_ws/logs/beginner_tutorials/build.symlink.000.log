@@ -1,0 +1,3 @@
+Symlinking /home/zoujoey/ADR_stuff/catkin_ws/devel/lib/pkgconfig/beginner_tutorials.pc
+Symlinking /home/zoujoey/ADR_stuff/catkin_ws/devel/share/beginner_tutorials/cmake/beginner_tutorialsConfig-version.cmake
+Symlinking /home/zoujoey/ADR_stuff/catkin_ws/devel/share/beginner_tutorials/cmake/beginner_tutorialsConfig.cmake

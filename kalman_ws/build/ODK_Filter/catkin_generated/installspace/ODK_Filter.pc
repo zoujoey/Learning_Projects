@@ -1,0 +1,8 @@
+prefix=/home/zoujoey/Personal_Projects/kalman_ws/install
+
+Name: ODK_Filter
+Description: Description of ODK_Filter
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

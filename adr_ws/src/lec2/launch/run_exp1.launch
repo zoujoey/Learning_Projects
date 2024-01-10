@@ -1,0 +1,4 @@
+<launch>
+    <node name="exp1_image_subscriber" pkg="lec2" type="exp1_image_subscriber" output="screen">
+    </node>
+  </launch>

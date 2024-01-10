@@ -1,0 +1,5 @@
+lec1
+/home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec1/cmake.lock /home/zoujoey/ADR_stuff/adr_ws/devel/./cmake.lock
+/home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec1/lib/pkgconfig/lec1.pc /home/zoujoey/ADR_stuff/adr_ws/devel/lib/pkgconfig/lec1.pc
+/home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec1/share/lec1/cmake/lec1Config-version.cmake /home/zoujoey/ADR_stuff/adr_ws/devel/share/lec1/cmake/lec1Config-version.cmake
+/home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec1/share/lec1/cmake/lec1Config.cmake /home/zoujoey/ADR_stuff/adr_ws/devel/share/lec1/cmake/lec1Config.cmake

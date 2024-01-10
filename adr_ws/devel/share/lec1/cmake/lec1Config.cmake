@@ -1,0 +1,1 @@
+/home/zoujoey/ADR_stuff/adr_ws/devel/.private/lec1/share/lec1/cmake/lec1Config.cmake
