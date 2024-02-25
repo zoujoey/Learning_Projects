@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target IEK_Filter[0m
+[ 40%] Built target Noisy_Circular_Data_Generator
+[ 60%] [32mBuilding CXX object CMakeFiles/IEK_Filter.dir/src/IEK_Filter.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable /home/zoujoey/Personal_Projects/kalman_ws/devel/.private/IEKF_Filter/lib/IEKF_Filter/IEK_Filter[0m
+[100%] Built target IEK_Filter

@@ -28,6 +28,7 @@ include_directories(
 
 add_executable(Noisy_Data_Generator
   src/ex1_KFilter.cpp)
+
 add_executable(ODVK_Filter
   src/main_Kfilter.cpp
   src/ODK_Filter.cpp
@@ -35,6 +36,7 @@ add_executable(ODVK_Filter
 target_link_libraries(Noisy_Data_Generator
   ${catkin_LIBRARIES}
   ${OpenCV_LIBRARIES})
-  target_link_libraries(ODVK_Filter
+
+target_link_libraries(ODVK_Filter
   ${catkin_LIBRARIES}
   ${OpenCV_LIBRARIES})

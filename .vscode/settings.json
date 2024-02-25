@@ -69,7 +69,8 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "variant": "cpp",
-        "bit": "cpp"
+        "bit": "cpp",
+        "hash_map": "cpp"
     },
     "cmake.sourceDirectory": "/home/zoujoey/ADR_stuff/slambook2/Pangolin/components/pango_image"
 }

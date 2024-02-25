@@ -1,0 +1,7 @@
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:[m[K In member function ‘[01m[Kvoid IEKalman::IEK_Filter::Iterated_Extended_Kalman_Filter()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:85:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   85 |     while (((xp-x).norm()>0.1) || ([01;31m[Ki[m[K<3)){
+      |                                    [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/IEK_Filter.dir/build.make:76: CMakeFiles/IEK_Filter.dir/src/IEK_Filter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:522: CMakeFiles/IEK_Filter.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

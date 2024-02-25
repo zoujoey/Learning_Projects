@@ -1,0 +1,16 @@
+[33mWARNING: Package name "EKF_Filter" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.[0m
+[31m[1mCMake Error[0m at /home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/CMakeLists.txt:40 (add_executable):
+  Cannot find source file:
+
+    src/main_EK_Filter.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/CMakeLists.txt:40 (add_executable):
+  No SOURCES given to target: EK_Filter
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:1526: cmake_check_build_system] Error 1

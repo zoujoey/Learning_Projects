@@ -1,0 +1,16 @@
+In file included from [01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:1[m[K:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.h:5:10:[m[K [01;31m[Kfatal error: [m[Kmath_utils.h: No such file or directory
+    5 | #include [01;31m[K<math_utils.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/main_IEKfilter.cpp:4[m[K:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.h:5:10:[m[K [01;31m[Kfatal error: [m[Kmath_utils.h: No such file or directory
+    5 | #include [01;31m[K<math_utils.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/IEK_Filter.dir/build.make:76: CMakeFiles/IEK_Filter.dir/src/IEK_Filter.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/IEK_Filter.dir/build.make:63: CMakeFiles/IEK_Filter.dir/src/main_IEKfilter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:522: CMakeFiles/IEK_Filter.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

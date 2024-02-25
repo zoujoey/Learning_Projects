@@ -1,0 +1,15 @@
+In file included from [01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:1[m[K:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:5:10:[m[K [01;31m[Kfatal error: [m[KEigen: No such file or directory
+    5 | #include [01;31m[K<Eigen>[m[K
+      |          [01;31m[K^~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/main_EKfilter.cpp:4[m[K:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:5:10:[m[K [01;31m[Kfatal error: [m[KEigen: No such file or directory
+    5 | #include [01;31m[K<Eigen>[m[K
+      |          [01;31m[K^~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/EK_Filter.dir/build.make:76: CMakeFiles/EK_Filter.dir/src/EK_Filter.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/EK_Filter.dir/build.make:63: CMakeFiles/EK_Filter.dir/src/main_EKfilter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1305: CMakeFiles/EK_Filter.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

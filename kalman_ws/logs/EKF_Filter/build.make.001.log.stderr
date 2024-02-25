@@ -1,0 +1,7 @@
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/ex1_EKFilter.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/ex1_EKFilter.cpp:81:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kz[m[K’ was not declared in this scope
+   81 |         std::cout << "actual position of the drone: " << x << "," << y << "," << [01;31m[Kz[m[K << "," << t << std::endl;
+      |                                                                                  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/Noisy_Circular_Data_Generator.dir/build.make:63: CMakeFiles/Noisy_Circular_Data_Generator.dir/src/ex1_EKFilter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1465: CMakeFiles/Noisy_Circular_Data_Generator.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

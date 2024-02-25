@@ -1,0 +1,10 @@
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/ex1_EKFilter.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/ex1_EKFilter.cpp:85:28:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   85 |         double r = sqrt(x**[01;31m[K2[m[K+y**2);
+      |                            [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/ex1_EKFilter.cpp:85:33:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   85 |         double r = sqrt(x**2+y**[01;31m[K2[m[K);
+      |                                 [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/Noisy_Circular_Data_Generator.dir/build.make:63: CMakeFiles/Noisy_Circular_Data_Generator.dir/src/ex1_EKFilter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1465: CMakeFiles/Noisy_Circular_Data_Generator.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

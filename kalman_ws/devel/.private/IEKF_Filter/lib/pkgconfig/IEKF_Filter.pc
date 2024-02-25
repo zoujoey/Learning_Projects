@@ -1,0 +1,8 @@
+prefix=/home/zoujoey/Personal_Projects/kalman_ws/devel/.private/IEKF_Filter
+
+Name: IEKF_Filter
+Description: Description of IEKF_Filter
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

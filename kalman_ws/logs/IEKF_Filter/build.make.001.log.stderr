@@ -1,0 +1,12 @@
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:[m[K In constructor ‘[01m[KIEKalman::IEK_Filter::IEK_Filter(const ros::NodeHandle&, const ros::NodeHandle&)[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:9:52:[m[K [01;31m[Kerror: [m[K‘[01m[KEK_Filter[m[K’ has not been declared
+    9 |   infoSub_ = nh_.subscribe("noisy_pose_topic", 1, &[01;31m[KEK_Filter[m[K::odom_Callback, this);
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:[m[K In member function ‘[01m[Kvoid IEKalman::IEK_Filter::odom_Callback(const Odometry&)[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:70:7:[m[K [01;31m[Kerror: [m[K‘[01m[KExtended_Kalman_Filter[m[K’ was not declared in this scope; did you mean ‘[01m[KIterated_Extended_Kalman_Filter[m[K’?
+   70 |       [01;31m[KExtended_Kalman_Filter[m[K();
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |       [32m[KIterated_Extended_Kalman_Filter[m[K
+make[2]: *** [CMakeFiles/IEK_Filter.dir/build.make:76: CMakeFiles/IEK_Filter.dir/src/IEK_Filter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:522: CMakeFiles/IEK_Filter.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

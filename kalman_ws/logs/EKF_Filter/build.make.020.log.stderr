@@ -1,0 +1,262 @@
+In file included from [01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/main_EKfilter.cpp:4[m[K:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:28:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   28 |   [01;31m[KEigen[m[K::VectorXd x; //State Posterior Vector
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:29:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   29 |   [01;31m[KEigen[m[K::MatrixXd P; //State Posterior Covariance
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:30:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   30 |   [01;31m[KEigen[m[K::VectorXd u; //Control Input Vector
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:31:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   31 |   [01;31m[KEigen[m[K::MatrixXd Q; //Control Input Covariance
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:32:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   32 |   [01;31m[KEigen[m[K::MatrixXd F; //Motion Model Jacobian
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:35:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   35 |   [01;31m[KEigen[m[K::VectorXd xp; //State Estimate/Prior Vector
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:36:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   36 |   [01;31m[KEigen[m[K::VectorXd yp; //State Estimate/Prior Vector - motion model
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:37:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   37 |   [01;31m[KEigen[m[K::MatrixXd Pp; //State Estimate/Prior Covariance
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:38:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   38 |   [01;31m[KEigen[m[K::MatrixXd K; //Kalman Gain
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   39 |   [01;31m[KEigen[m[K::VectorXd y; //Measurement Vector
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:40:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   40 |   [01;31m[KEigen[m[K::MatrixXd R; //Measurement Covariance
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:41:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   41 |   [01;31m[KEigen[m[K::MatrixXd G; //Observation Model Jacobian
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:44:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   44 |   [01;31m[KEigen[m[K::MatrixXd Qp; //Motion Model Jacobian Noise
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:45:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   45 |   [01;31m[KEigen[m[K::MatrixXd Rp; //Observation Model Jacobian Noise
+      |   [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:1[m[K:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:28:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   28 |   [01;31m[KEigen[m[K::VectorXd x; //State Posterior Vector
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   46 |   [01;31m[KEigen[m[K::MatrixXd wp; //OBservation Model Derivative Noise
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:29:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   29 |   [01;31m[KEigen[m[K::MatrixXd P; //State Posterior Covariance
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:49:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   49 |   [01;31m[KEigen[m[K::VectorXd I; //Identity Matrix
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:30:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   30 |   [01;31m[KEigen[m[K::VectorXd u; //Control Input Vector
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:31:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   31 |   [01;31m[KEigen[m[K::MatrixXd Q; //Control Input Covariance
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:32:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   32 |   [01;31m[KEigen[m[K::MatrixXd F; //Motion Model Jacobian
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:35:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   35 |   [01;31m[KEigen[m[K::VectorXd xp; //State Estimate/Prior Vector
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:36:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   36 |   [01;31m[KEigen[m[K::VectorXd yp; //State Estimate/Prior Vector - motion model
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:37:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   37 |   [01;31m[KEigen[m[K::MatrixXd Pp; //State Estimate/Prior Covariance
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:38:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   38 |   [01;31m[KEigen[m[K::MatrixXd K; //Kalman Gain
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   39 |   [01;31m[KEigen[m[K::VectorXd y; //Measurement Vector
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:40:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   40 |   [01;31m[KEigen[m[K::MatrixXd R; //Measurement Covariance
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:41:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   41 |   [01;31m[KEigen[m[K::MatrixXd G; //Observation Model Jacobian
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:44:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   44 |   [01;31m[KEigen[m[K::MatrixXd Qp; //Motion Model Jacobian Noise
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:45:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   45 |   [01;31m[KEigen[m[K::MatrixXd Rp; //Observation Model Jacobian Noise
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   46 |   [01;31m[KEigen[m[K::MatrixXd wp; //OBservation Model Derivative Noise
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:49:3:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+   49 |   [01;31m[KEigen[m[K::VectorXd I; //Identity Matrix
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:14:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid EKalman::EK_Filter::init()[m[K’
+   14 | void [01;31m[KEK_Filter[m[K::init(){
+      |      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:14:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid EKalman::EK_Filter::init()[m[K’
+In file included from [01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:1[m[K:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass EKalman::EK_Filter[m[K’ defined here
+   11 | class [01;36m[KEK_Filter[m[K {
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::odom_Callback(const Odometry&)[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:61:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+   61 |     [01;31m[Ky[m[K = << msg.pose.pose.position.x,
+      |     [01;31m[K^[m[K
+      |     [32m[Kyn[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:61:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   61 |     y = [01;31m[K<<[m[K msg.pose.pose.position.x,
+      |         [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:63:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ku[m[K’ was not declared in this scope
+   63 |     [01;31m[Ku[m[K = << msg.twist.twist.linear.x,
+      |     [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:63:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   63 |     u = [01;31m[K<<[m[K msg.twist.twist.linear.x,
+      |         [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:67:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+   67 |     [01;31m[Kx[m[K = << y(1),0, -msg.pose.pose.position.y;
+      |     [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:67:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   67 |     x = [01;31m[K<<[m[K y(1),0, -msg.pose.pose.position.y;
+      |         [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:71:7:[m[K [01;31m[Kerror: [m[K‘[01m[KE_Kalman_Filter[m[K’ was not declared in this scope; did you mean ‘[01m[KExtended_Kalman_Filter[m[K’?
+   71 |       [01;31m[KE_Kalman_Filter[m[K();
+      |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |       [32m[KExtended_Kalman_Filter[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:76:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+   76 |     fmsg.pose.pose.position.x = [01;31m[Kx[m[K(1);
+      |                                 [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::state_prediction()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:98:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kxp[m[K’ was not declared in this scope; did you mean ‘[01m[Kexp[m[K’?
+   98 |        [01;31m[Kxp[m[K = << (x(1) + cos(x(3))*v(1)*dt),
+      |        [01;31m[K^~[m[K
+      |        [32m[Kexp[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:98:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   98 |        xp = [01;31m[K<<[m[K (x(1) + cos(x(3))*v(1)*dt),
+      |             [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:98:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+   98 |        xp = << ([01;31m[Kx[m[K(1) + cos(x(3))*v(1)*dt),
+      |                 [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:98:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope
+   98 |        xp = << (x(1) + cos(x(3))*[01;31m[Kv[m[K(1)*dt),
+      |                                  [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::covariance_prediction()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:103:8:[m[K [01;31m[Kerror: [m[K‘[01m[KPp[m[K’ was not declared in this scope
+  103 |        [01;31m[KPp[m[K = F * P * F.transpose() + Qp;
+      |        [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:103:13:[m[K [01;31m[Kerror: [m[K‘[01m[KF[m[K’ was not declared in this scope
+  103 |        Pp = [01;31m[KF[m[K * P * F.transpose() + Qp;
+      |             [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:103:17:[m[K [01;31m[Kerror: [m[K‘[01m[KP[m[K’ was not declared in this scope
+  103 |        Pp = F * [01;31m[KP[m[K * F.transpose() + Qp;
+      |                 [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:103:37:[m[K [01;31m[Kerror: [m[K‘[01m[KQp[m[K’ was not declared in this scope
+  103 |        Pp = F * P * F.transpose() + [01;31m[KQp[m[K;
+      |                                     [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::kalman_gain()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:106:8:[m[K [01;31m[Kerror: [m[K‘[01m[KK[m[K’ was not declared in this scope
+  106 |        [01;31m[KK[m[K = Pp * G.transpose() * (G * Pp * G.tranpose() + Rp).inverse();
+      |        [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:106:12:[m[K [01;31m[Kerror: [m[K‘[01m[KPp[m[K’ was not declared in this scope
+  106 |        K = [01;31m[KPp[m[K * G.transpose() * (G * Pp * G.tranpose() + Rp).inverse();
+      |            [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:106:17:[m[K [01;31m[Kerror: [m[K‘[01m[KG[m[K’ was not declared in this scope
+  106 |        K = Pp * [01;31m[KG[m[K.transpose() * (G * Pp * G.tranpose() + Rp).inverse();
+      |                 [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:106:58:[m[K [01;31m[Kerror: [m[K‘[01m[KRp[m[K’ was not declared in this scope
+  106 |        K = Pp * G.transpose() * (G * Pp * G.tranpose() + [01;31m[KRp[m[K).inverse();
+      |                                                          [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::state_correction()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:109:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kyp[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+  109 |        [01;31m[Kyp[m[K = <<(((x(1)*x(1))+(x(2))*(x(2))).power(1/2)),
+      |        [01;31m[K^~[m[K
+      |        [32m[Kyn[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:109:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+  109 |        yp = [01;31m[K<<[m[K(((x(1)*x(1))+(x(2))*(x(2))).power(1/2)),
+      |             [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:109:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+  109 |        yp = <<((([01;31m[Kx[m[K(1)*x(1))+(x(2))*(x(2))).power(1/2)),
+      |                  [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:110:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kxp[m[K’ was not declared in this scope; did you mean ‘[01m[Kexp[m[K’?
+  110 |               (atan2(-[01;31m[Kxp[m[K(2),-xp(1)) - xp(3));
+      |                       [01;31m[K^~[m[K
+      |                       [32m[Kexp[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:111:17:[m[K [01;31m[Kerror: [m[K‘[01m[KK[m[K’ was not declared in this scope
+  111 |        x = xp + [01;31m[KK[m[K * (y - yp);
+      |                 [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:111:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+  111 |        x = xp + K * ([01;31m[Ky[m[K - yp);
+      |                      [01;31m[K^[m[K
+      |                      [32m[Kyn[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::covariance_correction()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:114:8:[m[K [01;31m[Kerror: [m[K‘[01m[KP[m[K’ was not declared in this scope
+  114 |        [01;31m[KP[m[K = (I - K * G) * Pp;
+      |        [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:114:13:[m[K [01;31m[Kerror: [m[K‘[01m[KI[m[K’ was not declared in this scope
+  114 |        P = ([01;31m[KI[m[K - K * G) * Pp;
+      |             [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:114:17:[m[K [01;31m[Kerror: [m[K‘[01m[KK[m[K’ was not declared in this scope
+  114 |        P = (I - [01;31m[KK[m[K * G) * Pp;
+      |                 [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:114:21:[m[K [01;31m[Kerror: [m[K‘[01m[KG[m[K’ was not declared in this scope
+  114 |        P = (I - K * [01;31m[KG[m[K) * Pp;
+      |                     [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:114:26:[m[K [01;31m[Kerror: [m[K‘[01m[KPp[m[K’ was not declared in this scope
+  114 |        P = (I - K * G) * [01;31m[KPp[m[K;
+      |                          [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::motion_model_Jacobian()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:117:4:[m[K [01;31m[Kerror: [m[K‘[01m[KF[m[K’ was not declared in this scope
+  117 |    [01;31m[KF[m[K = << 1, 0, (-sin(x(3))*v(1)*dt),
+      |    [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:117:8:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+  117 |    F = [01;31m[K<<[m[K 1, 0, (-sin(x(3))*v(1)*dt),
+      |        [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:117:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+  117 |    F = << 1, 0, (-sin([01;31m[Kx[m[K(3))*v(1)*dt),
+      |                       [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:117:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope
+  117 |    F = << 1, 0, (-sin(x(3))*[01;31m[Kv[m[K(1)*dt),
+      |                             [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::motion_noise_Jacobian()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:122:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kwp[m[K’ was not declared in this scope
+  122 |    [01;31m[Kwp[m[K = << -sin(x(3)), 0,
+      |    [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:122:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+  122 |    wp = [01;31m[K<<[m[K -sin(x(3)), 0,
+      |         [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:122:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+  122 |    wp = << -sin([01;31m[Kx[m[K(3)), 0,
+      |                 [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:125:4:[m[K [01;31m[Kerror: [m[K‘[01m[KQp[m[K’ was not declared in this scope
+  125 |    [01;31m[KQp[m[K = dt*dt * wp * Q * wp.transpose();
+      |    [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:125:22:[m[K [01;31m[Kerror: [m[K‘[01m[KQ[m[K’ was not declared in this scope
+  125 |    Qp = dt*dt * wp * [01;31m[KQ[m[K * wp.transpose();
+      |                      [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::observation_model_Jacobian()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:128:4:[m[K [01;31m[Kerror: [m[K‘[01m[KG[m[K’ was not declared in this scope
+  128 |    [01;31m[KG[m[K = << (x(1))/(((x(1)*x(1))+(x(2))*(x(2))).power(1/2)), (x(2))/(((x(1)*x(1))+(x(2))*(x(2))).power(1/2)), 0,
+      |    [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:128:8:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+  128 |    G = [01;31m[K<<[m[K (x(1))/(((x(1)*x(1))+(x(2))*(x(2))).power(1/2)), (x(2))/(((x(1)*x(1))+(x(2))*(x(2))).power(1/2)), 0,
+      |        [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:128:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+  128 |    G = << ([01;31m[Kx[m[K(1))/(((x(1)*x(1))+(x(2))*(x(2))).power(1/2)), (x(2))/(((x(1)*x(1))+(x(2))*(x(2))).power(1/2)), 0,
+      |            [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::observation_noise_Jacobian()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:132:4:[m[K [01;31m[Kerror: [m[K‘[01m[KRp[m[K’ was not declared in this scope
+  132 |    [01;31m[KRp[m[K = R;
+      |    [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:132:9:[m[K [01;31m[Kerror: [m[K‘[01m[KR[m[K’ was not declared in this scope
+  132 |    Rp = [01;31m[KR[m[K;
+      |         [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/EK_Filter.dir/build.make:63: CMakeFiles/EK_Filter.dir/src/main_EKfilter.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/EK_Filter.dir/build.make:76: CMakeFiles/EK_Filter.dir/src/EK_Filter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1305: CMakeFiles/EK_Filter.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,71 @@
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:14:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid EKalman::EK_Filter::init()[m[K’
+   14 | void [01;31m[KEK_Filter[m[K::init(){
+      |      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:14:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid EKalman::EK_Filter::init()[m[K’
+In file included from [01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:1[m[K:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.h:12:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass EKalman::EK_Filter[m[K’ defined here
+   12 | class [01;36m[KEK_Filter[m[K {
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::odom_Callback(const Odometry&)[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:61:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   61 |     y = [01;31m[K<<[m[K msg.pose.pose.position.x,
+      |         [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:63:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   63 |     u = [01;31m[K<<[m[K msg.twist.twist.linear.x,
+      |         [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:67:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   67 |     x = [01;31m[K<<[m[K y(1),0, -msg.pose.pose.position.y;
+      |         [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:71:7:[m[K [01;31m[Kerror: [m[K‘[01m[KE_Kalman_Filter[m[K’ was not declared in this scope; did you mean ‘[01m[KExtended_Kalman_Filter[m[K’?
+   71 |       [01;31m[KE_Kalman_Filter[m[K();
+      |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |       [32m[KExtended_Kalman_Filter[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::state_prediction()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:98:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   98 |        xp = [01;31m[K<<[m[K (x(1) + cos(x(3))*v(1)*dt),
+      |             [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:98:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope
+   98 |        xp = << (x(1) + cos(x(3))*[01;31m[Kv[m[K(1)*dt),
+      |                                  [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::kalman_gain()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:106:45:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::MatrixXd[m[K’ {aka ‘[01m[Kclass Eigen::Matrix<double, -1, -1>[m[K’} has no member named ‘[01m[Ktranpose[m[K’; did you mean ‘[01m[Ktranspose[m[K’?
+  106 |        K = Pp * G.transpose() * (G * Pp * G.[01;31m[Ktranpose[m[K() + Rp).inverse();
+      |                                             [01;31m[K^~~~~~~~[m[K
+      |                                             [32m[Ktranspose[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::state_correction()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:109:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+  109 |        yp = [01;31m[K<<[m[K(((x(1)*x(1))+(x(2))*(x(2))).power(1/2)),
+      |             [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:109:44:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpower[m[K’ in ‘[01m[K((((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(1) * ((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(1)) + (((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(2) * ((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(2)))[m[K’, which is of non-class type ‘[01m[KEigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::Scalar[m[K’ {aka ‘[01m[Kdouble[m[K’}
+  109 |        yp = <<(((x(1)*x(1))+(x(2))*(x(2))).[01;31m[Kpower[m[K(1/2)),
+      |                                            [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::motion_model_Jacobian()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:117:8:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+  117 |    F = [01;31m[K<<[m[K 1, 0, (-sin(x(3))*v(1)*dt),
+      |        [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:117:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope
+  117 |    F = << 1, 0, (-sin(x(3))*[01;31m[Kv[m[K(1)*dt),
+      |                             [01;31m[K^[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::motion_noise_Jacobian()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:122:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+  122 |    wp = [01;31m[K<<[m[K -sin(x(3)), 0,
+      |         [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:[m[K In member function ‘[01m[Kvoid EKalman::EK_Filter::observation_model_Jacobian()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:128:8:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+  128 |    G = [01;31m[K<<[m[K (x(1))/(((x(1)*x(1))+(x(2))*(x(2))).power(1/2)), (x(2))/(((x(1)*x(1))+(x(2))*(x(2))).power(1/2)), 0,
+      |        [01;31m[K^~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:128:47:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpower[m[K’ in ‘[01m[K((((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(1) * ((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(1)) + (((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(2) * ((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(2)))[m[K’, which is of non-class type ‘[01m[KEigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::Scalar[m[K’ {aka ‘[01m[Kdouble[m[K’}
+  128 |    G = << (x(1))/(((x(1)*x(1))+(x(2))*(x(2))).[01;31m[Kpower[m[K(1/2)), (x(2))/(((x(1)*x(1))+(x(2))*(x(2))).power(1/2)), 0,
+      |                                               [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:128:96:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpower[m[K’ in ‘[01m[K((((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(1) * ((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(1)) + (((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(2) * ((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(2)))[m[K’, which is of non-class type ‘[01m[KEigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::Scalar[m[K’ {aka ‘[01m[Kdouble[m[K’}
+  128 |    G = << (x(1))/(((x(1)*x(1))+(x(2))*(x(2))).power(1/2)), (x(2))/(((x(1)*x(1))+(x(2))*(x(2))).[01;31m[Kpower[m[K(1/2)), 0,
+      |                                                                                                [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:129:48:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpower[m[K’ in ‘[01m[K((((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(1) * ((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(1)) + (((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(2) * ((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(2)))[m[K’, which is of non-class type ‘[01m[KEigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::Scalar[m[K’ {aka ‘[01m[Kdouble[m[K’}
+  129 |           (-x(2))/(((x(1)*x(1))+(x(2))*(x(2))).[01;31m[Kpower[m[K(1/2)), (x(1))/(((x(1)*x(1))+(x(2))*(x(2))).power(1/2)), 1;
+      |                                                [01;31m[K^~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/EKF_Filter/src/EK_Filter.cpp:129:97:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpower[m[K’ in ‘[01m[K((((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(1) * ((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(1)) + (((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(2) * ((Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>*)(&((EKalman::EK_Filter*)this)->EKalman::EK_Filter::x))->Eigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::operator()(2)))[m[K’, which is of non-class type ‘[01m[KEigen::DenseCoeffsBase<Eigen::Matrix<double, -1, 1>, 1>::Scalar[m[K’ {aka ‘[01m[Kdouble[m[K’}
+  129 |           (-x(2))/(((x(1)*x(1))+(x(2))*(x(2))).power(1/2)), (x(1))/(((x(1)*x(1))+(x(2))*(x(2))).[01;31m[Kpower[m[K(1/2)), 1;
+      |                                                                                                 [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/EK_Filter.dir/build.make:76: CMakeFiles/EK_Filter.dir/src/EK_Filter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1305: CMakeFiles/EK_Filter.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

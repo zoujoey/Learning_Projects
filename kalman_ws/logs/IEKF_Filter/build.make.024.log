@@ -1,0 +1,56 @@
+[35m[1mScanning dependencies of target IEK_Filter[0m
+[ 40%] Built target Noisy_Circular_Data_Generator
+[ 60%] [32mBuilding CXX object CMakeFiles/IEK_Filter.dir/src/IEK_Filter.cpp.o[0m
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:[m[K In member function ‘[01m[Kvoid IEKalman::IEK_Filter::Iterated_Extended_Kalman_Filter()[m[K’:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:103:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kobservation_model_Jacobian_O[m[K’ was not declared in this scope; did you mean ‘[01m[Kobservation_model_Jacobian[m[K’?
+  103 |     [01;31m[Kobservation_model_Jacobian_O[m[K();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kobservation_model_Jacobian[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:104:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kobservation_noise_Jacobian_O[m[K’ was not declared in this scope; did you mean ‘[01m[Kobservation_noise_Jacobian[m[K’?
+  104 |     [01;31m[Kobservation_noise_Jacobian_O[m[K();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kobservation_noise_Jacobian[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:108:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcovariance_correction_I[m[K’ was not declared in this scope; did you mean ‘[01m[Kcovariance_correction[m[K’?
+  108 |     [01;31m[Kcovariance_correction_I[m[K();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcovariance_correction[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:109:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_correction_I[m[K’ was not declared in this scope; did you mean ‘[01m[Kstate_correction[m[K’?
+  109 |     [01;31m[Kstate_correction_I[m[K();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kstate_correction[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:[m[K At global scope:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:139:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid IEKalman::IEK_Filter::state_correction_I()[m[K’
+  139 | void [01;31m[KIEK_Filter[m[K::state_correction_I(){
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:139:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid IEKalman::IEK_Filter::state_correction_I()[m[K’
+In file included from [01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:1[m[K:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.h:13:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass IEKalman::IEK_Filter[m[K’ defined here
+   13 | class [01;36m[KIEK_Filter[m[K {
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:156:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid IEKalman::IEK_Filter::covariance_correction_I()[m[K’
+  156 | void [01;31m[KIEK_Filter[m[K::covariance_correction_I(){
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:156:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid IEKalman::IEK_Filter::covariance_correction_I()[m[K’
+In file included from [01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:1[m[K:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.h:13:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass IEKalman::IEK_Filter[m[K’ defined here
+   13 | class [01;36m[KIEK_Filter[m[K {
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:174:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid IEKalman::IEK_Filter::observation_model_Jacobian_O()[m[K’
+  174 | void [01;31m[KIEK_Filter[m[K::observation_model_Jacobian_O(){
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:174:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid IEKalman::IEK_Filter::observation_model_Jacobian_O()[m[K’
+In file included from [01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:1[m[K:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.h:13:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass IEKalman::IEK_Filter[m[K’ defined here
+   13 | class [01;36m[KIEK_Filter[m[K {
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:181:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid IEKalman::IEK_Filter::observation_noise_Jacobian_O()[m[K’
+  181 | void [01;31m[KIEK_Filter[m[K::observation_noise_Jacobian_O(){
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:181:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid IEKalman::IEK_Filter::observation_noise_Jacobian_O()[m[K’
+In file included from [01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.cpp:1[m[K:
+[01m[K/home/zoujoey/Personal_Projects/kalman_ws/src/IEKF_Filter/src/IEK_Filter.h:13:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass IEKalman::IEK_Filter[m[K’ defined here
+   13 | class [01;36m[KIEK_Filter[m[K {
+      |       [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/IEK_Filter.dir/build.make:76: CMakeFiles/IEK_Filter.dir/src/IEK_Filter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:522: CMakeFiles/IEK_Filter.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
